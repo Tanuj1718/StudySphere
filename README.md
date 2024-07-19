@@ -1,4 +1,4 @@
-                                    # LEARNING CONTENT SHARING PLATFORM
+                                        ## LEARNING CONTENT SHARING PLATFORM
 
 ## Overview
 
@@ -37,13 +37,12 @@ The backend includes CORS middleware to allow secure cross-origin requests from 
 ## Setup and Installation
 **Clone the repository:**
 
-                            git clone https://github.com/yourusername/learning-content-sharing-platform.git
-                            cd learning-content-sharing-platform
+                            git clone https://github.com/Tanuj1718/Golang-Project2.git
 **Frontend:**
 
 Navigate to the frontend directory:
 
-                            cd frontend
+                            cd Frontend
 Install dependencies and start the development server:
 
                             npm install
@@ -51,7 +50,7 @@ Install dependencies and start the development server:
 **Backend:**
 
 Navigate to the backend directory:
-                            cd backend
+                            cd Authentication
 Install dependencies:
 
                             go mod tidy
