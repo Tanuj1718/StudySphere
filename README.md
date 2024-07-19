@@ -1,4 +1,4 @@
-                                    # Learning Content Sharing Platform
+                                    # LEARNING CONTENT SHARING PLATFORM
 
 ## Overview
 
@@ -40,6 +40,7 @@ The backend includes CORS middleware to allow secure cross-origin requests from 
                             git clone https://github.com/yourusername/learning-content-sharing-platform.git
                             cd learning-content-sharing-platform
 **Frontend:**
+
 Navigate to the frontend directory:
 
                             cd frontend
@@ -68,13 +69,14 @@ Create Post: Logged-in users can create posts with a title, content, and link.
 View Posts: Users can view posts shared by others.
 
 ## API Endpoints
-POST /api/register: Register a new user.
+POST "/api/register": Register a new user.
 
-POST /api/login: Login and receive a JWT token.
+POST "/api/login": Login and receive a JWT token.
 
-POST /api/posts: Create a new post (requires JWT).
+POST "/api/posts": Create a new post (requires JWT).
 
-GET /api/posts: Get all posts (requires JWT).
+GET "/api/posts": Get all posts (requires JWT).
 
 **Contributing**
+
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
