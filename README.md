@@ -1,4 +1,4 @@
-                                        ## LEARNING CONTENT SHARING PLATFORM
+                                    LEARNING CONTENT SHARING PLATFORM
 
 ## Overview
 
@@ -6,9 +6,7 @@ This platform allows users to register, login, and share their best learning con
 
 ## Tech Stack
 ### Frontend
-React: A JavaScript library for building user interfaces.
-
-Vite: A fast frontend build tool and development server.
+NextJs: Next.js is a React framework that enables server-side rendering and static site generation for building optimized and scalable web applications.
 
 Tailwind CSS: A utility-first CSS framework for rapid UI development.
 

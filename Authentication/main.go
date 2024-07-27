@@ -13,7 +13,7 @@ func main() {
 	r := router.Router()
 		// Setup CORS middleware
 		corsOptions := cors.New(cors.Options{
-			AllowedOrigins:   []string{"http://localhost:5173"}, 
+			AllowedOrigins:   []string{"*"}, 
 			AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 			AllowedHeaders:   []string{"Content-Type", "Authorization"},
 			AllowCredentials: true,
@@ -23,5 +23,5 @@ func main() {
 		router := corsOptions.Handler(r)
 	
 	fmt.Println("Server is getting ready...")
-	log.Fatal(http.ListenAndServe(":8000", router))
+	log.Fatal(http.ListenAndServe(":7000", router))
 }
