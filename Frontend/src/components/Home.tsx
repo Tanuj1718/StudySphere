@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       console.log(token)
       if (!token) return;
 
-      const response = await fetch('http://localhost:7000/api/posts', {
+      const response = await fetch('https://study-sphere-b.vercel.app/api/posts', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
