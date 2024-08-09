@@ -12,7 +12,7 @@ const SignIn: React.FC = () => {
 
   const handleSignIn = async (e: FormEvent) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:7000/api/signin', {
+    const response = await fetch('https://study-sphere-b.vercel.app/api/signin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
@@ -26,7 +26,7 @@ const SignIn: React.FC = () => {
     if (response.ok) {
       const data = await response.json();
       localStorage.setItem('token', data.token);
-      router.push('/');
+      router.push('/dashboard');
     } else {
       alert('Invalid username or password');
     }

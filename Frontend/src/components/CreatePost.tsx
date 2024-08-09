@@ -16,7 +16,7 @@ const CreatePost: React.FC = () => {
     const post = { title, link, content };
     const token = localStorage.getItem('token');
 
-    const response = await fetch('http://localhost:7000/api/post', {
+    const response = await fetch('https://study-sphere-b.vercel.app/api/post', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

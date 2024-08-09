@@ -15,7 +15,7 @@ const UserList: React.FC = () => {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const response = await fetch('http://localhost:7000/');
+                const response = await fetch('https://study-sphere-b.vercel.app/');
                 if (response.ok) {
                     const data: User[] = await response.json();
                     setUsers(data);
@@ -41,7 +41,7 @@ const UserList: React.FC = () => {
     }
 
     return (
-        <div className="h-auto flex items-center justify-center bg-transparent z-50">
+        <div className="h-auto flex items-center justify-center bg-transparent z-50 mt-[100px]">
             <Navbar/>
             <div className="bg-transparent p-8 rounded shadow-md w-full max-w-md z-50">
                 <h2 className="text-2xl font-bold mb-6 text-center text-blue-100 z-50 text-nowrap">Registered Users</h2>

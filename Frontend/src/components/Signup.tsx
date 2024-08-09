@@ -17,7 +17,7 @@ const Signup: React.FC = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:7000/api/signup', {
+            const response = await fetch('https://study-sphere-b.vercel.app/api/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
