@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"main.go/Authentication/controllers"
+	"main.go/controllers"
 )
 
 func Router() *mux.Router {

@@ -15,7 +15,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"golang.org/x/crypto/bcrypt"
-	model "main.go/Authentication/models"
+	model "main.go/models"
 )
 
 type Claims struct {

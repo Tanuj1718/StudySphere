@@ -9,7 +9,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	model "main.go/Authentication/models"
+	model "main.go/models"
 )
 
 var postCollection *mongo.Collection

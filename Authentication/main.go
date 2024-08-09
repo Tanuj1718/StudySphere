@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/rs/cors"
-	"main.go/Authentication/router"
+	"main.go/router"
 )
 
 func main() {
