@@ -34,7 +34,7 @@ const Signup: React.FC = () => {
             if (response.ok) {
                 const data = await response.json();
                 alert('Registered Successfully.');
-                router.push('/');
+                router.push('/signin');
             } else {
                 const errorData = await response.json();
                 alert(errorData.message || 'Signup failed');
