@@ -69,7 +69,7 @@ const CreatePost: React.FC = () => {
           ></textarea>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  max-w-7xl mx-auto gap-10">
-        {buttons.map((button, idx) => (
+        {buttons.map((button) => (
             <div className='text-neutral-300'>{button.component}</div>
         ))}
       </div>
